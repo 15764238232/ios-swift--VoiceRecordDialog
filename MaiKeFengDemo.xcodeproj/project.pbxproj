@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21367D5E1F174C82002A2055 /* IMG_1786.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 21367D5D1F174C82002A2055 /* IMG_1786.PNG */; };
 		2187AE991F174449008A8D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187AE981F174449008A8D43 /* AppDelegate.swift */; };
 		2187AE9B1F174449008A8D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187AE9A1F174449008A8D43 /* ViewController.swift */; };
 		2187AE9E1F174449008A8D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2187AE9C1F174449008A8D43 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21367D5D1F174C82002A2055 /* IMG_1786.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1786.PNG; sourceTree = "<group>"; };
 		2187AE951F174449008A8D43 /* MaiKeFengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaiKeFengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2187AE981F174449008A8D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2187AE9A1F174449008A8D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21367D5C1F174C82002A2055 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				21367D5D1F174C82002A2055 /* IMG_1786.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		2187AE8C1F174449008A8D43 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		2187AE971F174449008A8D43 /* MaiKeFengDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21367D5C1F174C82002A2055 /* Screenshots */,
 				2187AEC61F1744A1008A8D43 /* VoiceRecordDialog */,
 				2187AE981F174449008A8D43 /* AppDelegate.swift */,
 				2187AE9A1F174449008A8D43 /* ViewController.swift */,
@@ -297,6 +308,7 @@
 				2187AEDA1F1744A1008A8D43 /* ic_record_ripple-7.png in Resources */,
 				2187AEDD1F1744A1008A8D43 /* VoiceRecordDialog.xib in Resources */,
 				2187AED91F1744A1008A8D43 /* ic_record_ripple-6.png in Resources */,
+				21367D5E1F174C82002A2055 /* IMG_1786.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +588,7 @@
 				2187AEBF1F174449008A8D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2187AEC01F174449008A8D43 /* Build configuration list for PBXNativeTarget "MaiKeFengDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +597,7 @@
 				2187AEC21F174449008A8D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2187AEC31F174449008A8D43 /* Build configuration list for PBXNativeTarget "MaiKeFengDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +606,7 @@
 				2187AEC51F174449008A8D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
